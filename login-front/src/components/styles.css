@@ -1,0 +1,62 @@
+.main{
+  padding: 20px;
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.style-header{
+  font-size: larger;
+  font-family: 'Monaco';
+  color: black;
+}
+
+.input-basic{
+  outline: none;
+  box-shadow: none;
+  text-shadow: none;
+  background-color: darkslategrey;
+  width: 240px;
+  height: 30px;
+  margin: auto;
+}
+
+.input-username{
+  margin-top: 30px;
+}
+
+.input-password{
+  margin-top: 10px;
+}
+
+.login-button{
+  margin: auto;
+  margin-top: 30px;
+  width: 140px;
+  height: 50px;
+  background-color: grey;
+}
+
+.logout-button{
+  margin-top: 80px;
+}
+
+.visible{
+  visibility: visible;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.error-message{
+  font-size: 11px;
+  margin-top: 20px;
+  color: lightgrey;
+  text-decoration: underline;
+}
+
+.logged-div{
+  color: red;
+}
