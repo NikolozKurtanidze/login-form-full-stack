@@ -16,11 +16,6 @@ public class UserController {
 
     private final UserService userService;
 
-    @GetMapping("")
-    List<User> getAll(){
-        return userService.getAllUsers();
-    }
-
     @PostMapping("")
     boolean getUsers(@RequestBody User user){
         return userService.verifyUserInfo(user);
